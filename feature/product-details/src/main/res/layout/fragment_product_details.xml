@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:contentInsetLeft="0dp"
+        android:contentInsetStart="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetEnd="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="16dp"
+            android:gravity="center"
+            android:paddingHorizontal="24dp">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/rounded_corners_blue_button"
+                android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+                app:tint="@color/white" />
+
+            <ImageButton
+                android:id="@+id/basket"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                android:background="@drawable/rounded_corners_orange_button"
+                android:src="@drawable/shopping_outline"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/product_details_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/product_details"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="8dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.jackandphantom.carouselrecyclerview.CarouselRecyclerview
+        android:id="@+id/recycler_view_product_photos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        tools:listitem="@layout/product_photo_item"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:background="@drawable/rounded_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@id/recycler_view_product_photos"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rating_bar">
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_alignParentStart="true"
+                tools:text="Samsung" />
+
+            <ImageButton
+                android:id="@+id/favourite"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/rounded_corners_blue_button"
+                android:src="@drawable/outline_favorite_border_24"
+                app:tint="@color/white" />
+
+        </RelativeLayout>
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_marginStart="8dp"
+            android:progressTint="@color/gold"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_above="@id/tab_layout"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/view_pager"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            app:tabIndicatorColor="@color/secondaryColor"
+            app:tabTextAppearance="@style/tabLayoutText">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shop" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/details" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/features" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/select_text_view"
+            android:paddingTop="6dp"
+            android:paddingBottom="18dp" />
+
+        <TextView
+            android:id="@+id/select_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/selection"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="4dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:text="@string/select_color_and_capacity" />
+
+        <LinearLayout
+            android:id="@+id/selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_above="@+id/add_to_cart"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/color1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/radio_color_selector"
+                    android:layout_marginEnd="12dp" />
+
+                <RadioButton
+                    android:id="@+id/color2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/radio_color_selector" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/capacity1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:background="@drawable/radio_memory_selector"
+                    android:button="@android:color/transparent"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:paddingHorizontal="12dp"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:textColor="@color/radio_memory_text_color_selector"
+                    android:layout_marginEnd="12dp"
+                    android:textStyle="bold"/>
+
+                <RadioButton
+                    android:id="@+id/capacity2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:background="@drawable/radio_memory_selector"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:paddingHorizontal="12dp"
+                    android:textSize="16sp"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:textColor="@color/radio_memory_text_color_selector"
+                    android:button="@android:color/transparent"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_to_cart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/add_to_cart"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentBottom="true"
+            app:backgroundTint="@color/secondaryColor"
+            app:cornerRadius="10dp"/>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

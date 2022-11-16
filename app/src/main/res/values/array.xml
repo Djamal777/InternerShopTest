@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="brands">
+        <item>Samsung</item>
+        <item>Xiaomi</item>
+        <item>Motorola</item>
+    </string-array>
+    <string-array name="prices">
+        <item>$300–$500</item>
+        <item>$500–$1000</item>
+        <item>$1000–$3000</item>
+        <item>$3000–$5000</item>
+        <item>$5000–$10000</item>
+    </string-array>
+    <string-array name="sizes">
+        <item>4.5 to 5.5 inches</item>
+        <item>5.5 to 6.5 inches</item>
+    </string-array>
+</resources>

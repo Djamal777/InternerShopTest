@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/circle_bigger.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/circle_smaller.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/circle_white.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/nav_background.xml" value="0.1495" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/radio_color_selected.xml" value="0.203" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/radio_memory_selected.xml" value="0.203" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/rounded_blue_view.xml" value="0.181" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/rounded_bottom_sheet.xml" value="0.181" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/rounded_corners_blue_button.xml" value="0.1495" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/rounded_corners_gray_view.xml" value="0.181" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable-v24/rounded_corners_orange_button.xml" value="0.1495" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/bookshelf.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/circle.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/circle_small.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/close.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/filter_outline.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1495" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.203" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_checkroom_24.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_computer_24.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_favorite_24.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_favorite_border_24.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_memory_24.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_place_24.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_qr_code_24.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_sd_card_24.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_search_24.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/outline_smartphone_24.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/radio_color_regular.xml" value="0.203" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/radio_color_selector.xml" value="0.203" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/radio_memory_regular.xml" value="0.203" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/radio_memory_selector.xml" value="0.203" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/rounded_bottom_sheet.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/rounded_corners_button.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/sd_card-48px.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/search_view_bg.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/shopping_outline.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/smartphone-48px.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/spinner_background.xml" value="0.1495" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/drawable/trash_can_outline.xml" value="0.223" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout-v28/fragment_home_store.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/banner_item.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/best_seller_item.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/cart_item.xml" value="0.4873417721518987" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/category.xml" value="0.253125" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/category_item.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/fragment_cart.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/fragment_home_store.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/fragment_product_characteristics.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/fragment_product_details.xml" value="0.152" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/fragment_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/nav_button.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/layout/product_photo_item.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/menu/filter_menu.xml" value="0.253125" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/app/src/main/res/mipmap-anydpi-v26/splash_icon.xml" value="0.2055" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/drawable/account_outline.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/drawable/circle.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/drawable/circle_white.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/drawable/drawable.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/drawable/outline_favorite_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/drawable/rounded_corners_gray_view.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/drawable/trash_can_outline.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/layout/banner_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/layout/best_seller_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/layout/cart_item.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/layout/category_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/core/api/src/main/res/layout/product_photo_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/cart/src/main/res/drawable/rounded_blue_view.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/cart/src/main/res/layout/fragment_cart.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/bookshelf.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/circle_bigger.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/heart_pulse.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/outline_checkroom_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/outline_computer_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/outline_favorite_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/outline_place_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/outline_qr_code_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/rounded_corners_blue_button.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/shopping_outline.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/drawable/spinner_background.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/layout/fragment_home_store.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/explorer/src/main/res/menu/filter_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/camera_outline.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/ic_baseline_done_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/ic_baseline_panorama_horizontal_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/outline_favorite_border_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/outline_memory_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/outline_sd_card_24.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/radio_color_selected.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/radio_color_selector.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/radio_memory_regular.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/radio_memory_selector.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/rounded_bottom_sheet.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/rounded_corners_blue_button.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/rounded_corners_orange_button.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/drawable/shopping_outline.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/InternerShopTest/feature/product-details/src/main/res/layout/fragment_product_characteristics.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

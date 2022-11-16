@@ -12,4 +12,5 @@
     <string name="price">Price</string>
     <string name="size">Size</string>
     <string name="price_dollar">$%1$s</string>
+    <string name="filters">Filters</string>
 </resources>

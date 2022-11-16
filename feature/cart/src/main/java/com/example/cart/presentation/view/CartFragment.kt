@@ -13,6 +13,8 @@ import com.example.cart.presentation.adapters.basketProductDelegate
 import com.example.cart.presentation.viewmodels.CartViewModel
 import com.hannesdorfmann.adapterdelegates4.ListDelegationAdapter
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
+import java.text.NumberFormat
+import java.util.*
 
 class CartFragment : Fragment() {
 
@@ -56,7 +58,7 @@ class CartFragment : Fragment() {
                         it.data?.let { data ->
                             productAdapter.items = data.basket
                             productAdapter.notifyDataSetChanged()
-                            total.text = "$${data.total} us"
+                            total.text = "$${NumberFormat.getNumberInstance(Locale.US).format(data.total)} us"
                             delivery.text = data.delivery
                         }
                     }

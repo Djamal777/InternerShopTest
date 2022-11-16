@@ -16,7 +16,7 @@ class HomeStoreViewModel(
     val bannersAndBestSellers: LiveData<com.example.common.Resource<com.example.api.data.dto.hot_sales_and_best_sellers.HomeStore>> =
         _bannersAndBestSellers
 
-    val isBottomSheetShown=MutableLiveData<Boolean>(false)
+    val isBottomSheetShown = MutableLiveData<Boolean>(false)
 
     init {
         viewModelScope.launch(Dispatchers.IO) {

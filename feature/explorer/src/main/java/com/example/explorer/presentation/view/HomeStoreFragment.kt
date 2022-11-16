@@ -12,17 +12,12 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.api.di.apiModule
 import com.example.explorer.R
 import com.example.explorer.data.initial.getCategories
 import com.example.explorer.databinding.FragmentHomeStoreBinding
-import com.example.explorer.di.explorerModule
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.hannesdorfmann.adapterdelegates4.ListDelegationAdapter
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
-import org.koin.androidx.viewmodel.ext.android.viewModel
-import org.koin.core.context.loadKoinModules
-import org.koin.core.context.unloadKoinModules
 
 class HomeStoreFragment : Fragment() {
 
@@ -52,16 +47,30 @@ class HomeStoreFragment : Fragment() {
             toolbar.menu.findItem(R.id.filter).isVisible = false
             toolbar.menu.findItem(R.id.filter).setOnMenuItemClickListener {
                 bottomSheetBehavior.state = BottomSheetBehavior.STATE_EXPANDED
-                viewModel.isBottomSheetShown.value=true
+                viewModel.isBottomSheetShown.value = true
                 true
             }
+            bottomSheetBehavior.addBottomSheetCallback(object :
+                BottomSheetBehavior.BottomSheetCallback() {
+                override fun onStateChanged(bottomSheet: View, newState: Int) {
+                    when (newState) {
+                        BottomSheetBehavior.STATE_EXPANDED -> viewModel.isBottomSheetShown.value =
+                            true
+                        BottomSheetBehavior.STATE_HIDDEN -> viewModel.isBottomSheetShown.value =
+                            false
+                        else -> Unit
+                    }
+                }
+
+                override fun onSlide(bottomSheet: View, slideOffset: Float) = Unit
+            })
             cancel.setOnClickListener {
                 bottomSheetBehavior.state = BottomSheetBehavior.STATE_HIDDEN
-                viewModel.isBottomSheetShown.value=false
+                viewModel.isBottomSheetShown.value = false
             }
             done.setOnClickListener {
                 bottomSheetBehavior.state = BottomSheetBehavior.STATE_HIDDEN
-                viewModel.isBottomSheetShown.value=false
+                viewModel.isBottomSheetShown.value = false
             }
             geoPosition.compoundDrawablesRelative[0].setTint(resources.getColor(com.example.api.R.color.secondaryColor))
         }
@@ -127,7 +136,7 @@ class HomeStoreFragment : Fragment() {
                         categoryClickListener
                     )
                 )
-            categoryAdapter.items= getCategories(requireContext())
+            categoryAdapter.items = getCategories(requireContext())
             categoryAdapter.notifyDataSetChanged()
             recyclerViewCategories.adapter = categoryAdapter
             recyclerViewCategories.layoutManager =
@@ -154,8 +163,9 @@ class HomeStoreFragment : Fragment() {
         }
     }
 
-    private val productClickListener: (com.example.api.data.dto.hot_sales_and_best_sellers.BestSeller) -> Unit = {
-            val uri= Uri.parse("myApp://productDetailsFragment")
+    private val productClickListener: (com.example.api.data.dto.hot_sales_and_best_sellers.BestSeller) -> Unit =
+        {
+            val uri = Uri.parse("myApp://productDetailsFragment")
             findNavController().navigate(uri)
         }
 
